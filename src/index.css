@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+2&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Da+2:400,700&display=swap');
+body {
+    overflow: hidden;
+    background-color: yellow;
+}
+h1.btn {
+    margin-top: 10px;
+    font-family: "Baloo 2";
+    text-align: center;
+    cursor: pointer;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+div.all {
+    height: 1000px;
+    width: 100%;
+    z-index: 2;
+}
+
+h1.up {
+     text-align: left;
+    margin-top: 280px !important;
+    font-size: 2.5em;
+    font-family: 'Baloo Da 2', cursive;
+    z-index: 2;
+
+}
+h1.title {
+    text-align: center;
+    margin-top: 150px !important;
+    font-size: 2.5em;
+    font-family: 'Baloo Da 2', cursive;
+}
+h1.copy {
+    font-family: 'Baloo Da 2', cursive;
+    transition: 0.5s;
+    position: absolute;
+    top: 75%;
+    left: 44%;
+    color: black;
+    z-index: 1;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+button.btn {
+    margin-left: 47.5%;
+}
+h1.password {
+    text-align: center;
+    font-family: 'Baloo Da 2', cursive;
+}
